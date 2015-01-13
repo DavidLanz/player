@@ -36,7 +36,13 @@
 			<artifactId>spring-context</artifactId>
 			<version>3.2.13.RELEASE</version>
 		</dependency>
-		<!--apache httpclient -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>3.2.13.RELEASE</version>
+        </dependency>
+        <dependency>
+        <!--apache httpclient -->
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
